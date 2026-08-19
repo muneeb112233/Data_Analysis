@@ -1,0 +1,76 @@
+Births:
+
+Total Records: 15547 -needs some cleaning 
+
+
+gender Counts
+F    7776
+M    7771
+
+First Records are in months and days then only months from 1989
+Every Month has 32 days which in itself is impossible 
+with a date 99 ,wrong dates for many months because not all moths are 31 and feb has 28 maximum days with 29 in leap years only. which are 1972->76->80->84->86->90->94->98->2002->2006 and data ends at 2008 
+480 rows of day column is not assigned 
+
+Data needs to be Cleaned FIrst
+Leap-year Feb 29 rows KEPT as valid: 10
+1972->76->80->84->86 because after 1988 data is stored month wise
+
+
+Highest Number of births in a August in 2007
+
+Cleaned data now has 960 records and only 80 of each months due to separate for M and F (40Y *12M *2 Genders)
+
+Total  Birth: 151766945
+Male Births : 77734779
+Female Births: 74032166
+
+Highest Number of births in a August in 2007
+Highest Mean birth in August as well in all the years 
+169093.6875 Means of August HIGHEST 
+144254.3250 average mean of February LOWEST
+
+Highest Yearly 2007 Males       2212118
+Highest Yearly 2007 Females   2111890
+Highest Combined.
+year         2007
+births    4324008
+
+Maximum number of Births in a month 199622
+Minimum number of Births in a month 115851
+Closest Gap between F and F was :5177
+Closest Gap between F and F was from:1973 Month: 9
+Biggest Gap between M and F was :10694
+Biggest Gap between M and F was from:1970 Month 7
+
+bar plot shows Below 150000 with Black Error Bar for F which is mean of F in 1969 births 
+bar plot shows Above 150000 with Black Error Bar for M which is mean of M in 1969 births
+This is not Ideal so we cannot use for precise calculations
+
+There has NEVER been a SINGLE year with More Female Births than MALE in those 40 Years.
+
+from ScatterPlot and RegPlot we deduced:
+Male and Female births accross different years over the span of 40 years show the relation that growth of both is relatively close and almost same with about 13 difference over every 10000 in favor of Males
+
+If we look at heatmap of monthly births in regards to Average births over the years:
+We come to understand, For Male/Female-Births Top three months are August(173175-165012) July(171375-162802) and September(169485-161815) Female Birth Topper is less than Male Average number4 with 165599 
+But if we see at least Male and Female Births Aerage Monthly report from heatmap we can see Male least3 are Feb(147668) And April(154907)  and November(156030) and For Least Female Births on Average are Feb(140841), April(147227) and November(148900)
+
+Exact Birth records also prove that over the years August and July had been Best Months for Births for Males and females with high number of births especially after 1989. 
+
+looking at histogram of valid days daily births we come to conclusion that we had less than 200 days for ~3750 births a day and over 6000
+and we have 4600-4700 births on most of days with about 1000 days showing that frequency and 4250-5250 births per day had the count to over 800 and had high spread in this range
+
+if we look at same histogram with just adding Hue for gender to get a different look on our data ,we can see FEMale peak birth counts at above 500(~520) with 4300 births per day whereas Male births per day is counted/repeated at above 500(~530) at 4600 births per day, KDE of Both show two peaks FEMale show upper peak at about 510 counts with 4300 births per day and 2nd peak at 480
+counts with 5000 births per day While Male Birth Peaks at 480 counts at 4500 births per day and 465 counts at 5300 births per day 
+
+Higher Male Baseline: Male birth counts are consistently higher than female birth counts
+The male KDE peak sits further right, reflecting the higher total annual volume for males.
+Birth totals vary significantly over time, showing structural growth or shifts across the 40-year dataset.
+
+Clean Metric Aggregation: The chart accurately captures yearly birth totals for male and female births. The gap between male and female totals remains relatively stable without any sudden historical inversions.
+
+Box plot over the 40 years of births with 50% middle values and mean show that Male births per year median is also higher than box plotted for Female with IQR top range(75% Perrcentile)
+also Male Side Mean is higher than Female Birth per year Median
+Values of both genders go almost high together correlation shows the relation 
+
