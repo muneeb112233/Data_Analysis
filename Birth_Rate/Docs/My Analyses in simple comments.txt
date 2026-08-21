@@ -9,7 +9,7 @@ M    7771
 
 First Records are in months and days then only months from 1989
 Every Month has 32 days which in itself is impossible 
-with a date 99 ,wrong dates for many months because not all moths are 31 and feb has 28 maximum days with 29 in leap years only. which are 1972->76->80->84->86->90->94->98->2002->2006 and data ends at 2008 
+with a date 99 ,wrong dates for many months because not all moths are 31 and feb has 28 maximum days with 29 in leap years only. which are 1972->76->80->84 and data ends at 2008 
 480 rows of day column is not assigned 
 
 Data needs to be Cleaned FIrst
@@ -24,6 +24,7 @@ Cleaned data now has 960 records and only 80 of each months due to separate for 
 Total  Birth: 151766945
 Male Births : 77734779
 Female Births: 74032166
+Male births account for about 51.22%, female births 48.78%
 
 Highest Number of births in a August in 2007
 Highest Mean birth in August as well in all the years 
@@ -73,4 +74,3 @@ Clean Metric Aggregation: The chart accurately captures yearly birth totals for 
 Box plot over the 40 years of births with 50% middle values and mean show that Male births per year median is also higher than box plotted for Female with IQR top range(75% Perrcentile)
 also Male Side Mean is higher than Female Birth per year Median
 Values of both genders go almost high together correlation shows the relation 
-
